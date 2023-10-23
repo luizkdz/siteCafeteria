@@ -1,0 +1,191 @@
+.cabeçalho {
+    top:0;
+    width:100%;
+    position:fixed;
+    background-color: burlywood;
+    display: flex;
+    justify-content: flex-end;
+    z-index: 1000;
+}
+
+.cabeçalho ul {
+    display: flex;
+    list-style-type: none;
+}
+
+
+.cabeçalho li {
+    font-size:18px;
+    font-family: 'Oswald', sans-serif;
+    margin-left: 20px;
+    margin-right:20px;
+}
+
+.fotoLogo{
+    height:50px;
+    width: 100px;
+    margin-right: auto;
+}
+.foto-banner{
+    position:relative;
+    background-image:url(parallax-imagem1.png);
+    background-attachment: fixed;
+    height:600px;
+    width:100%;
+    margin-top:20px;
+}
+.foto-banner2{
+    background-image:url('parallax-imagem2.jpg');
+    position: relative;
+    background-attachment: fixed;
+    background-repeat:no-repeat;
+    background-size:cover;
+    height:600px;
+    width:100%;
+    margin-top:20px;
+}
+
+.descricao-banner{
+    width:100%;
+    font-family:'Fraunces', serif;
+    color:white;
+    font-size:50px;
+    top:50%;
+    left:50%;
+    transform: translate(-50%, -50%);
+    position:absolute;
+    text-align:center;
+}
+
+.descricao{
+    justify-content:center;
+    text-align:center;
+}
+.descricao h1{
+    font-family:'Oswald', sans-serif;
+    color:brown;
+    font-size:18px;
+}
+.descricao p{
+    font-size:16px;
+    font-family:'Lato', sans-serif;
+}
+
+.foto-banner3{
+    position:relative;
+    text-align:center;
+    background-image:url('parallax-imagem3.jpg');
+    background-attachment: fixed;
+    background-repeat:no-repeat;
+    background-size:cover;
+    height:600px;
+    width:100%;
+    margin-top:20px;
+    background-position:center;
+    
+}
+
+.contatoEndereco{
+    color:white;
+    font-size:24px;
+    font-family:'Oswald', sans-serif;
+    border:2px solid black;
+    width:700px;
+    background-color:burlywood;
+    text-align:center;
+    margin:0 auto;
+    margin-bottom:20px;
+}
+
+.frame{
+    text-align:center;
+    margin: 0px auto;
+    margin-bottom:20px;
+}
+
+.informacoes{
+    color:white;
+    border:2px solid black;
+    text-align:center;
+    width:400px;
+    background-color:burlywood;
+    margin: 0 auto;
+}
+.horarioFuncionamento{
+    padding:20px 0;
+    background-repeat: no-repeat;
+    background-position:center;
+    background-size:cover;
+    width:100%;
+    background-image:url('cafeteria.jpg');
+    text-align:center;
+}
+
+.rodape{
+    position:relative;
+    padding-top:10px;
+    width:100%;
+    background-color:black;
+    margin-bottom:20px;
+}
+
+.rodape p{
+    position:absolute;
+    top:50%;
+    left:50%;
+    transform: translate(-50%, -50%);
+    font-size:16px;
+    font-family:'Lato' , sans-serif;
+    text-align:center;
+    color:white;
+    padding-bottom:30px;
+}
+
+.backgroundEndereco{
+
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-position:center;
+    background-size:cover;
+    background-image:url('parallax-imagem4.png');
+    padding: 20px 0;
+}
+
+h5{
+    font-family:'Oswald',sans-serif;
+    color:white;
+}
+
+a{
+    text-shadow: 0px 1px black;;
+}
+body{
+    margin:0;
+}
+.fraseBanner3{
+    font-size:24px;
+    font-family:'Fraunces', serif;
+    color:white;
+    position:absolute;
+    top:50%;
+    left:50%;
+    transform: translate(-50%, -50%);
+    border:2px solid black;
+    width:800px;
+    background-color:burlywood;
+    text-align:center;
+ 
+}
+
+.fotoSeta {
+    position: relative;
+    left: 1400px;
+    bottom: 25px;
+}
+
+.caixaMelhorCafe{
+    justify-content: center;
+    text-align:center;
+    width:100%;
+    margin:0 auto;
+}
